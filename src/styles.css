@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: black;}
+@page {
+    size: auto;   /* auto is the initial value */
+    margin: 2cm;
+  }
+  
+  .containerX {
+    border: solid 1px #b6b6b6;
+    box-sizing: content-box !important;
+  }
+
+  .container1 {
+    background-color: #f1ee0dee;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .container2 {
+    background-color: #f5a30c;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .box1 {
+    background-color: #02a9f7;
+    min-height: 100px;
+    height: 300px;
+  }
+  
+  .box2 {
+    background-color: rgb(43, 226, 43);
+    min-height: 100px;
+    height: 300px;
+  }
+
+  .box3 {
+    background-color: rgb(250, 14, 14);
+    min-height: 100px;
+    height: 300px;
+  }
+
